@@ -7,6 +7,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 // Connection pool
 const pool = mysql.createPool({
+    // enter your data to connect to the database
     host: 'localhost',
     user: 'root',
     password: '255070',
